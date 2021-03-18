@@ -3,8 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Css Units</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: aquamarine;
+        }
+
+        .out {
+            background-color: bisque;
+            margin: 10vh 10vw;
+            width: 80vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .in {
+            background-color: crimson;
+            /*margin: auto auto;*/
+            width: 50%;
+            height: 50%;
+            /*position: absolute;*/
+        }
+
+        .inout {
+            background-color: black;
+            margin: 10% 15%;
+            width: 50%;
+            height: 50%;
+            /*position: absolute;*/
+        }
+
+    </style>
 </head>
 <body>
+<!--<div id="out" class="parents">-->
+<!--    <div class="in child"></div>-->
+<!--</div>-->
+
+<div class="out">
+    <div class="in">
+        <div class="inout">
+        </div>
+    </div>
+</div>
+
 
 </body>
 </html>
